@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "KKPayHelper.h"
 
 FOUNDATION_EXPORT double KKPayHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char KKPayHelperVersionString[];

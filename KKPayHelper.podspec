@@ -30,13 +30,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KKPayHelper/Classes/**/*'
+  s.source_files = 'KKPayHelper/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'KKPayHelper' => ['KKPayHelper/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'KKPayHelper/Classes/**/KKPayHelper.h'
+  s.requires_arc = true
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
