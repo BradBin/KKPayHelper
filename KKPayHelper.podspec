@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'KKPayHelper' => ['KKPayHelper/Assets/*.png']
   # }
 
-  s.public_header_files = 'KKPayHelper/Classes/**/KKPayHelper.h'
+  s.public_header_files = 'KKPayHelper/Classes/**/*.h'
   s.requires_arc = true
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'

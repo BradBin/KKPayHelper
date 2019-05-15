@@ -12,13 +12,13 @@
 		2CBD782CEB9DEE51482102F5F2A8779B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
 		3FF21A28D5537A7E3510D7E21C99BECD /* Pods-KKPayHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A5D113AA504181387363BED35241EE /* Pods-KKPayHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47E262F00AC22843A356FBEB15D0D6B1 /* Pods-KKPayHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1701E7F7EEDE3C846F8E8CCB077BC60 /* Pods-KKPayHelper_Example-dummy.m */; };
-		5128BF8FC6ADC6D050F0B2008B86FB5E /* KKPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3038C8F0A691C7A768A4260AF4699124 /* KKPayHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C4D6E0E66BBBB22F36896CE28E3772F /* Pods-KKPayHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F895D9D4473A6DE8379258A822FBA62 /* Pods-KKPayHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74065B6DE89F0389968F690587A789A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		7EC9559A8E488BDDC21C4ED6E91ABBAF /* KKPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF841BA9C019C35F92F5CE7F7C1E2D6 /* KKPayManager.m */; };
 		89918484F68A736B9001A32158A3595E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		93B45969228BFDFC0041B75B /* KKPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B45966228BFDFC0041B75B /* KKPayHelper.h */; };
+		93B4596A228BFDFC0041B75B /* KKPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B45967228BFDFC0041B75B /* KKPayManager.m */; };
+		93B4596B228BFDFC0041B75B /* KKPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B45968228BFDFC0041B75B /* KKPayManager.h */; };
 		9AB18B770E16B1A51B0794D958D07B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		FBBA478BC2DB49FA9781F9400E77117D /* KKPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEBFAF99BD69F7063707E24D5DA3926 /* KKPayManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FBD4EAB1FD2359AC3E0B28DE3665C169 /* KKPayHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE294E310A8205910832BD7FEB4B4256 /* KKPayHelper-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -41,24 +41,25 @@
 
 /* Begin PBXFileReference section */
 		0770A26E42D123C7C03DE3063FD9DC9C /* KKPayHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKPayHelper-prefix.pch"; sourceTree = "<group>"; };
-		0BF841BA9C019C35F92F5CE7F7C1E2D6 /* KKPayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKPayManager.m; path = KKPayHelper/Classes/KKPayManager.m; sourceTree = "<group>"; };
 		0F895D9D4473A6DE8379258A822FBA62 /* Pods-KKPayHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKPayHelper_Example-umbrella.h"; sourceTree = "<group>"; };
-		1D2D0109561342536036762DB33D89A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D2D0109561342536036762DB33D89A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F34B75FC75D30B830FE1964753DA2FD /* Pods-KKPayHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPayHelper_Tests-Info.plist"; sourceTree = "<group>"; };
-		21618CDCBFCF843E8E6771F2F72FC3D7 /* KKPayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKPayHelper.framework; path = KKPayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21618CDCBFCF843E8E6771F2F72FC3D7 /* KKPayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKPayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7691E08271921C1044C6C1AA4A4041 /* Pods-KKPayHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPayHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2FCE9594A76173B02DBC0F8FCB2C095C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3038C8F0A691C7A768A4260AF4699124 /* KKPayHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKPayHelper.h; path = KKPayHelper/Classes/KKPayHelper.h; sourceTree = "<group>"; };
+		2FCE9594A76173B02DBC0F8FCB2C095C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		51FA920DE7B5AB59D17DD773DB5CD426 /* Pods-KKPayHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPayHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		52E34FAADA35AF144252667504CD1B23 /* KKPayHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKPayHelper.xcconfig; sourceTree = "<group>"; };
-		55A6540676B4F4C38F966FBEF7CECEE0 /* Pods_KKPayHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKPayHelper_Example.framework; path = "Pods-KKPayHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DF77AC035C401ABFBC034104BDB5166 /* Pods_KKPayHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKPayHelper_Tests.framework; path = "Pods-KKPayHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A6540676B4F4C38F966FBEF7CECEE0 /* Pods_KKPayHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKPayHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF77AC035C401ABFBC034104BDB5166 /* Pods_KKPayHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKPayHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F22F7B4444A8E39034AB0E8C56896CF /* KKPayHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKPayHelper-Info.plist"; sourceTree = "<group>"; };
-		65AC2BE0BD759BB6D7B12161ACF9661D /* KKPayHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKPayHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65AC2BE0BD759BB6D7B12161ACF9661D /* KKPayHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKPayHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		69660EA29818A6CC7829780AA1E03E34 /* Pods-KKPayHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPayHelper_Example.modulemap"; sourceTree = "<group>"; };
 		8331C93C4D0C3E83F7CBB12A85AFCAB0 /* Pods-KKPayHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKPayHelper_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B45966228BFDFC0041B75B /* KKPayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKPayHelper.h; path = KKPayHelper/Classes/KKPayHelper.h; sourceTree = "<group>"; };
+		93B45967228BFDFC0041B75B /* KKPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKPayManager.m; path = KKPayHelper/Classes/KKPayManager.m; sourceTree = "<group>"; };
+		93B45968228BFDFC0041B75B /* KKPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKPayManager.h; path = KKPayHelper/Classes/KKPayManager.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE15E521B813BA5E8470E71584AD391C /* Pods-KKPayHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPayHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE294E310A8205910832BD7FEB4B4256 /* KKPayHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKPayHelper-dummy.m"; sourceTree = "<group>"; };
 		BB3AFB235CBBD5A784D2A496B7527F99 /* Pods-KKPayHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPayHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		C7A5D113AA504181387363BED35241EE /* Pods-KKPayHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKPayHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C94EEEEBE63728320D123D1C6DF94A09 /* Pods-KKPayHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPayHelper_Example-Info.plist"; sourceTree = "<group>"; };
 		C9C062B9648E657AC3CD4632CD5801D9 /* KKPayHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKPayHelper-umbrella.h"; sourceTree = "<group>"; };
-		CCEBFAF99BD69F7063707E24D5DA3926 /* KKPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKPayManager.h; path = KKPayHelper/Classes/KKPayManager.h; sourceTree = "<group>"; };
 		D4ECCAA1063C84B21107E37E579AEEC4 /* Pods-KKPayHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKPayHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9C8D2CF67EF885553B1791D60355113 /* Pods-KKPayHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPayHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB7095712EFAA63C3346052342340C24 /* KKPayHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKPayHelper.modulemap; sourceTree = "<group>"; };
@@ -191,9 +191,9 @@
 		BF7FA1564E42D208DF782945589FC7A1 /* KKPayHelper */ = {
 			isa = PBXGroup;
 			children = (
-				3038C8F0A691C7A768A4260AF4699124 /* KKPayHelper.h */,
-				CCEBFAF99BD69F7063707E24D5DA3926 /* KKPayManager.h */,
-				0BF841BA9C019C35F92F5CE7F7C1E2D6 /* KKPayManager.m */,
+				93B45966228BFDFC0041B75B /* KKPayHelper.h */,
+				93B45968228BFDFC0041B75B /* KKPayManager.h */,
+				93B45967228BFDFC0041B75B /* KKPayManager.m */,
 				85ABAC6A0F6077835E6336D269C6743C /* Pod */,
 				313CE3B730373F27CA8EB5ECB6AB037D /* Support Files */,
 			);
@@ -239,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D63D1719127ABD5344CCABAB28A29C /* KKPayHelper-umbrella.h in Headers */,
-				5128BF8FC6ADC6D050F0B2008B86FB5E /* KKPayHelper.h in Headers */,
-				FBBA478BC2DB49FA9781F9400E77117D /* KKPayManager.h in Headers */,
+				93B45969228BFDFC0041B75B /* KKPayHelper.h in Headers */,
+				93B4596B228BFDFC0041B75B /* KKPayManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +333,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -376,8 +377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B4596A228BFDFC0041B75B /* KKPayManager.m in Sources */,
 				FBD4EAB1FD2359AC3E0B28DE3665C169 /* KKPayHelper-dummy.m in Sources */,
-				7EC9559A8E488BDDC21C4ED6E91ABBAF /* KKPayManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,8 +633,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
