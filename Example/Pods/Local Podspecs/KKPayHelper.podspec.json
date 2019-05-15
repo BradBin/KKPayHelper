@@ -1,0 +1,22 @@
+{
+  "name": "KKPayHelper",
+  "version": "1.0.0",
+  "summary": "KKPayHelper is a Tool for Payment.",
+  "description": "KKPayHelper is a Tool for Payment,Convenient and Fast Inheritance of Payment Function.",
+  "homepage": "https://github.com/BradBin/KKPayHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BradBin": "youbin@kkorange.com"
+  },
+  "source": {
+    "git": "https://github.com/BradBin/KKPayHelper.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KKPayHelper/Classes/**/*"
+}
