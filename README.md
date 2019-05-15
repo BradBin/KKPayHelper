@@ -1,9 +1,6 @@
 # KKPayHelper
 
-[![CI Status](https://img.shields.io/travis/BradBin/KKPayHelper.svg?style=flat)](https://travis-ci.org/BradBin/KKPayHelper)
-[![Version](https://img.shields.io/cocoapods/v/KKPayHelper.svg?style=flat)](https://cocoapods.org/pods/KKPayHelper)
-[![License](https://img.shields.io/cocoapods/l/KKPayHelper.svg?style=flat)](https://cocoapods.org/pods/KKPayHelper)
-[![Platform](https://img.shields.io/cocoapods/p/KKPayHelper.svg?style=flat)](https://cocoapods.org/pods/KKPayHelper)
+ KKPayHelper is a Tool for Payment,Convenient and Fast Inheritance of Payment Function.
 
 ## Example
 
