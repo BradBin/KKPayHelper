@@ -18,6 +18,8 @@
 		93B45969228BFDFC0041B75B /* KKPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B45966228BFDFC0041B75B /* KKPayHelper.h */; };
 		93B4596A228BFDFC0041B75B /* KKPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B45967228BFDFC0041B75B /* KKPayManager.m */; };
 		93B4596B228BFDFC0041B75B /* KKPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B45968228BFDFC0041B75B /* KKPayManager.h */; };
+		93B45972228C057C0041B75B /* KKPayMent.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B45970228C057C0041B75B /* KKPayMent.h */; };
+		93B45973228C057C0041B75B /* KKPayMent.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B45971228C057C0041B75B /* KKPayMent.m */; };
 		9AB18B770E16B1A51B0794D958D07B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		FBD4EAB1FD2359AC3E0B28DE3665C169 /* KKPayHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE294E310A8205910832BD7FEB4B4256 /* KKPayHelper-dummy.m */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		93B45966228BFDFC0041B75B /* KKPayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKPayHelper.h; path = KKPayHelper/Classes/KKPayHelper.h; sourceTree = "<group>"; };
 		93B45967228BFDFC0041B75B /* KKPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKPayManager.m; path = KKPayHelper/Classes/KKPayManager.m; sourceTree = "<group>"; };
 		93B45968228BFDFC0041B75B /* KKPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKPayManager.h; path = KKPayHelper/Classes/KKPayManager.h; sourceTree = "<group>"; };
+		93B45970228C057C0041B75B /* KKPayMent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKPayMent.h; path = KKPayHelper/Classes/KKPayMent.h; sourceTree = "<group>"; };
+		93B45971228C057C0041B75B /* KKPayMent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKPayMent.m; path = KKPayHelper/Classes/KKPayMent.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE15E521B813BA5E8470E71584AD391C /* Pods-KKPayHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPayHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE294E310A8205910832BD7FEB4B4256 /* KKPayHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKPayHelper-dummy.m"; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				93B45966228BFDFC0041B75B /* KKPayHelper.h */,
+				93B45970228C057C0041B75B /* KKPayMent.h */,
+				93B45971228C057C0041B75B /* KKPayMent.m */,
 				93B45968228BFDFC0041B75B /* KKPayManager.h */,
 				93B45967228BFDFC0041B75B /* KKPayManager.m */,
 				85ABAC6A0F6077835E6336D269C6743C /* Pod */,
@@ -239,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D63D1719127ABD5344CCABAB28A29C /* KKPayHelper-umbrella.h in Headers */,
+				93B45972228C057C0041B75B /* KKPayMent.h in Headers */,
 				93B45969228BFDFC0041B75B /* KKPayHelper.h in Headers */,
 				93B4596B228BFDFC0041B75B /* KKPayManager.h in Headers */,
 			);
@@ -377,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B45973228C057C0041B75B /* KKPayMent.m in Sources */,
 				93B4596A228BFDFC0041B75B /* KKPayManager.m in Sources */,
 				FBD4EAB1FD2359AC3E0B28DE3665C169 /* KKPayHelper-dummy.m in Sources */,
 			);
